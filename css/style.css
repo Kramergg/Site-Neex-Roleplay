@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    list-style: none;
+
+}
+
+header{
+    background: #202020;   
+    padding: 30px 0px;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 160px;
+    
+}
+
+.container-header img{
+    width: 80px;
+    height: 80px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+
+.navbar ul li a{
+    color: white;
+    font-size: 18px;
+}
+
+#button-login{
+    padding: 15px 30px;
+    background-color: #44D374;
+    border-radius: 5px;
+}
+
+

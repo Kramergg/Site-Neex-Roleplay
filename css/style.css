@@ -1,47 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: none;
-    list-style: none;
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-header{
-    background: #202020;   
-    padding: 30px 0px;
+body {
+  font-family: roboto;
+  background: #151515;
+  color: #fff;
+}
+.logo {
+  height: 80px;
 }
 
-.container-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 160px;
-    
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: #202020;
+  width: 100%;
+  height: 110px;
+  position: fixed;
 }
 
-.container-header img{
-    width: 80px;
-    height: 80px;
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 62px;
+}
+ul li a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 19px;
+}
+ul li a:hover {
+  color: #46ff74;
 }
 
-.navbar ul{
-    display: flex;
-    align-items: center;
-    gap: 40px; 
-}
-
-.navbar ul li a{
-    color: white;
-    font-size: 18px;
-}
-
-#button-login{
-    padding: 15px 30px;
-    background-color: #44D374;
-    border-radius: 5px;
-}
+/*main*/
 
 
